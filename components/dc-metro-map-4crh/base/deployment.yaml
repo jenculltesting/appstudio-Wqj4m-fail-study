@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-4crh
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/jentesting/release-e2e-bundle-tenant/appstudio/dc-metro-map-4crh@sha256:6f29edfeb0d9ef44ab7abee9e606d34b6cc196ce59f0a11826217332a0f43737
         name: my-nodejs
         ports:
         - containerPort: 3001
